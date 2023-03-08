@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+    
+}
+.navbar_menu{
+    list-style: none;
+    margin-left: 60px;
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 80px;
+    position: fixed;
+    background-color: blue;
+}
+
+.container{
+    width: 1550px;
+    margin: 0 0px;
+    padding: 0 0px;
+}
+h1{
+    margin-left: 50px;
+    color: white;
+    
+}
+ul{
+    display: flex;
+}
+.navbar_menu_item{
+    letter-spacing: 2px;
+ margin-right: 20px;
+ margin-top: 5px;
+ font-size: 16px;
+
+}
+#logo{
+   font-size: 25px;
+   position:absolute;
+   right:60px;
+   color:white;
+   position: fixed;
+}
+.banner_bloack{
+width: 100%;
+height: 800px;
+}
+.banner_bloack img{
+max-width: 100%;
+height: auto;
+object-fit: cover;
+}
+.banner_overlay{
+    position: absolute;
+    top: 35%;
+    right: 50%;
+    left: 4%;
+   transform: translate(-50% -50%);
+   letter-spacing: 3px;
+   font-size: 15px;
+   color: white;
+}
+h2{
+    line-height: 60px;
+    font-size: 45px;
+}
+.buttons2{
+    position: absolute;
+    top: 1345px;
+    left: 800px;  
+    width: 500px;
+    background-color:lightgray;
+    height: 50px;
+}
+.word{
+   letter-spacing: 1px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   letter-spacing: 1px;
+   color:wheat;
+}
+.button{
+    font-size: 20px;
+    padding:10px 20px ;
+    border: none;
+}
+.button1{
+    color: blue;
+}
+
+.button2{
+    color: white;
+    background-color:rgba(173, 216, 230, 0.408);
+    margin-left: 45px;
+}
+.photo{
+    width: 50%;
+    height: 800px;    
+}
+.photo1{
+    max-width: 95%;
+    height: auto;
+    object-fit: cover; 
+    position: absolute;
+    left: 650px;
+   bottom: 650px;
+   border-radius: 15px;
+}
+.mainphoto{
+   width: 580px;
+   height: 530px;
+   position: absolute;
+   top: 550px;
+   left: 75px;
+}
+h3{
+    position: absolute;
+    top: 1120px;
+    left: 850px;
+}
+.h2{
+    position: absolute;
+    top: 1180px;
+    left: 800px; 
+}
+
+.buttonone{
+    font-size: 18px;
+    padding:8px 18px ;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: black;
+    background-color: white;
+  
+}
+.button3{
+    background-color: blue;
+    color: white;
+}
+
+.mainword1{
+    position: absolute;
+    top: 1435px;
+    left: 800px; 
+    right: 80px; 
+    letter-spacing: 1px;    
+    font-size: 17px;
+    color: gray;
+}
+.mainword2{
+    position: absolute;
+    top: 1545px;
+    left: 800px; 
+    letter-spacing: 1px;
+    right: 70px;
+    color: gray; 
+    font-size: 17px;
+}
+.relative{
+    position: relative;
+}
+.sectionbutton{
+    position: absolute;
+    top: 920px;
+    left: 680px;
+    color: blue;
+    padding:10px 28px ;
+    font-size: 20px;
+    border-radius: 48%;
+}
+
+.title1{
+position: relative;
+}
+.title{
+    position: absolute;
+    top: 970px;
+    left: 590px;
+}
+.title2{
+    position: relative;
+}
+
+.title3{
+    position: absolute;
+    top: 1040px;
+    left: 530px;
+    font-size: 18px;
+    color: gray; 
+    
+}
+#logo2{
+    font-size: 40px;
+    position: absolute;
+    top: 1150px;
+    left: 150px;
+    border: 2px solid blue;
+   padding: 19px;
+   border-radius: 100%;
+}
+#logo3{
+    font-size: 40px;
+    position: absolute;
+    top: 1150px;
+    left: 700px;
+    border: 2px solid blue;
+   padding: 20px;
+   border-radius: 100%; 
+}
+#logo4{
+    font-size: 40px;
+    position: absolute;
+    top: 1150px;
+    left:1200px;
+    border: 2px solid blue;
+   padding: 20px;
+   border-radius: 100%;   
+}
+
+.logoword1{
+    position: absolute;
+    top: 1250px;
+    left: 120px;
+    font-size: 25px;
+}
+.logoword1_item{
+   
+   position: absolute;
+   top: 1300px;
+   left: 120px;
+   color: grey;
+   letter-spacing: 1px;
+}
+.logoword2{
+    position: absolute;
+    top: 1250px;
+    left: 650px;
+    font-size: 25px;
+}
+.logoword2_item{
+    position: absolute;
+    top: 1300px;
+    left: 650px;
+    color: grey;
+  
+    letter-spacing: 1px;  
+}
+.logoword3{
+    position: absolute;
+    top: 1250px;
+    left: 1100px;
+    font-size: 25px;
+}
+.logoword3_item{
+    position: absolute;
+    top: 1300px;
+    left: 1100px;
+    color: grey;
+    
+}
+#logo5{
+    font-size: 40px;
+    position: absolute;
+    top: 1500px;
+    left: 150px;
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 100%;
+}
+#logo6{
+    font-size: 40px;
+    position: absolute;
+    top: 1500px;
+    left: 700px;
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 100%;
+}
+#logo7{
+    font-size: 40px;
+    position: absolute;
+    top: 1500px;
+    padding: 20px;
+    left:1200px;
+    border: 2px solid blue;
+    border-radius: 150%;
+}
+.logoword5{
+    position: absolute;
+    top:1600px ;
+    left: 120px;
+}
+.logoword5_item{
+    position: absolute;
+    top: 1650px;
+    left: 120px;
+    color: grey;
+}
+.logoword6{
+    position: absolute;
+    top:1600px ;
+    left: 650px;
+}
+.logoword6_item{
+    position: absolute;
+    top: 1650px;
+    left: 650px;
+    color: grey;  
+}
+.logoword7{
+    position: absolute;
+    top:1600px ;
+    left: 1100px;  
+}
+.logoword7_item{
+    position: absolute;
+    top: 1650px;
+    left: 1100px;
+    color: grey;  
+}
+
+
+
+
+
+
+
+
+
