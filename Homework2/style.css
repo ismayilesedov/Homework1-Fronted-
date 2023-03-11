@@ -238,7 +238,7 @@ border: 1px solid blue;
 .logo_box{
     padding: 25px;
     font-size: 45px;
-    border-radius: 100%;
+    border-radius: 50%;
     border: 3px solid rgb(136, 136, 215);
 }
 .boxes_word{
@@ -285,9 +285,10 @@ border: 1px solid blue;
     border-radius: 15px;
 }
 .logo_box2{
+
     padding: 25px;
     font-size: 45px;
-    border-radius: 100%;
+    border-radius: 50%;
     border: 3px solid rgb(136, 136, 215);
 }
 .boxes_word2{
@@ -298,6 +299,12 @@ border: 1px solid blue;
 .bold_text2{
     font-size: 23px;
     padding: 10px;
+}
+.logo_box2:hover{
+    background-color: rgb(92, 92, 241);
+}
+.logo_box:hover{
+    background-color: rgb(94, 94, 250);
 }
 
 
